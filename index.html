@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Myeisha Madkins Web Rental Agency</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <div class="card text-center">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">Home</a>
+                        <a class="nav-link" id="v-pills-rent-tab" data-toggle="pill" href="#v-pills-rent" role="tab" aria-controls="v-pills-rent"
+                            aria-selected="false">Rent</a>
+                        <a class="nav-link" id="v-pills-return-tab" data-toggle="pill" href="#v-pills-return" role="tab" aria-controls="v-pills-return"
+                            aria-selected="false">Return</a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            welcome
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-rent" role="tabpanel" aria-labelledby="v-pills-rent-tab">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <img class="col-4" width="35" height="55" src="data:image/jpeg;base64,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"
+                                            alt="">
+                                        <div class="col-8">
+                                            <p>info here</p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="d-flex">
+                                        <div class="col-8">
+                                            <p>info here</p>
+                                        </div>
+                                        <img class="col-4" width="35" height="55" src="data:image/jpeg;base64,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"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-return" role="tabpanel" aria-labelledby="v-pills-return-tab">...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>
