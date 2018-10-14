@@ -1,5 +1,13 @@
 /* styling */
 body {
     background-image: url("https://www.muralswallpaper.com/app/uploads/black-marble-textures-plain.jpg");
-    background-repeat: no-repeat;
+}
+.movieTitle,
+.movieInfo,
+.moviePrice {
+    padding: 0 5%;
+}
+
+.movieTitle {
+    margin-top: 5%;
 }
