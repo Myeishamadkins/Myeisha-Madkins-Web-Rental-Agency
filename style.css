@@ -4,10 +4,17 @@ body {
 }
 .movieTitle,
 .movieInfo,
-.moviePrice {
+.moviePrice,
+.movieStock {
     padding: 0 5%;
 }
 
 .movieTitle {
     margin-top: 5%;
+}
+.movieImage img:nth-child(even) {
+    float: left;
+}
+.movieImage img:nth-child(odd) {
+    float: right;
 }

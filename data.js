@@ -1,11 +1,12 @@
 const PAGE_DATA = {
     moviePosters: [
         {
-            imageUrl: "./images/getout.png", 
+            imageUrl: "./images/getout.png",
             title: "Get Out",
-            price: --,
-            stock: --,
-            description: "Now that Chris (Daniel Kaluuya) and his girlfriend, Rose\
+            price: 0,
+            stock: 0,
+            description:
+                "Now that Chris (Daniel Kaluuya) and his girlfriend, Rose\
             (Allison Williams), have reached the meet-the-parents milestone of dating,\
             she invites him for a weekend getaway upstate with Missy and Dean. At first,\
             Chris reads the family's overly accommodating behavior as nervous attempts\
@@ -14,11 +15,12 @@ const PAGE_DATA = {
             truth that he never could have imagined."
         },
         {
-            imageUrl: "./images/Beauty_Beast.jpg", 
+            imageUrl: "./images/Beauty_Beast.jpg",
             title: "Beauty and the Beast",
-            price: --,
-            stock: --,
-            description: "An arrogant prince is cursed to live as a terrifying beast\
+            price: 0,
+            stock: 0,
+            description:
+                "An arrogant prince is cursed to live as a terrifying beast\
             until he finds true love. Strangely, his chance comes when he captures an\
             unwary clockmaker, whose place is then taken by his bold and beautiful daughter\
             Belle. Helped by the Beast's similarly enchanted servants - including a clock,\
@@ -27,11 +29,12 @@ const PAGE_DATA = {
             cocky suitor Gaston is the real beast of the piece."
         },
         {
-            imageUrl: "./images/Black_Panther.jpg", 
+            imageUrl: "./images/Black_Panther.jpg",
             title: "Black Panther",
-            price: --,
-            stock: --,
-            description: "After the death of his father, T'Challa returns home to\
+            price: 0,
+            stock: 0,
+            description:
+                "After the death of his father, T'Challa returns home to\
             the African nation of Wakanda to take his rightful place as king. When a\
             powerful enemy suddenly reappears, T'Challa's mettle as king -- and as Black\
             Panther -- gets tested when he's drawn into a conflict that puts the fate\
@@ -40,11 +43,12 @@ const PAGE_DATA = {
             Panther to defeat his foes and secure the safety of his people."
         },
         {
-            imageUrl: "./images/dark.jpg", 
+            imageUrl: "./images/dark.jpg",
             title: "The Dark Crystal",
-            price: --,
-            stock: --,
-            description: "Jen (Stephen Garlick), raised by the noble race called the\
+            price: 0,
+            stock: 0,
+            description:
+                "Jen (Stephen Garlick), raised by the noble race called the\
             Mystics, has been told that he is the last survivor of his own race, the\
             Gelflings. He sets out to try to find a shard of the dark crystal, a powerful\
             gem that once provided balance to the universe. After the crystal was broken,\
@@ -53,11 +57,12 @@ const PAGE_DATA = {
             only find the remaining shard."
         },
         {
-            imageUrl: "./images/dontbreath.jpg", 
+            imageUrl: "./images/dontbreath.jpg",
             title: "Don't Breathe",
-            price: --,
-            stock: --,
-            description: "Rocky (Jane Levy), Alex and Money are three Detroit thieves\
+            price: 0,
+            stock: 0,
+            description:
+                "Rocky (Jane Levy), Alex and Money are three Detroit thieves\
             who get their kicks by breaking into the houses of wealthy people. Money\
             gets word about a blind veteran who won a major cash settlement following\
             the death of his only child. Figuring he's an easy target, the trio invades\
@@ -66,13 +71,14 @@ const PAGE_DATA = {
             a shocking discovery about their supposedly helpless victim."
         },
         {
-            imageUrl: "./images/mary.jpg", 
+            imageUrl: "./images/mary.jpg",
             title: "Proud Mary",
-            price: --,
-            stock: --,
-            description: "Taraji P. Henson is Mary, a hit woman working for an organized\
+            price: 0,
+            stock: 0,
+            description:
+                "Taraji P. Henson is Mary, a hit woman working for an organized\
             crime family in Boston, whose life is completely turned around when she meets\
             a young boy whose path she crosses when a professional hit goes bad."
         }
     ]
-}
+};

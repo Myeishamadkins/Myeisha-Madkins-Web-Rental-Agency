@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Myeisha Madkins Web Rental Agency</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -17,6 +18,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="data.js" defer></script>
     <script src="javascript.js" defer></script>
 </head>
 
@@ -56,7 +58,7 @@
 
         <script id="template" type="text/x-handlebars-template">
             <div class="d-flex">
-                <img class="movieImage getout" src="./images/getout.png" alt="" style="max-width: 229px; max-height: 346px; width: 176.493px; height: 266.667px">
+                <img class="movieImage" src="{{imageUrl}}" alt="" style="max-width: 229px; max-height: 346px; width: 176.493px; height: 266.667px">
                 <div class="">
                     <h3 class="movieTitle">{{title}}</h3>
                     <h5 class="moviePrice">{{price}}</h5>
