@@ -53,7 +53,7 @@ const PAGE_DATA = {
             only find the remaining shard."
         },
         {
-            imageUrl: "./images/mary.jpg", 
+            imageUrl: "./images/dontbreath.jpg", 
             title: "Don't Breathe",
             price: --,
             stock: --,
@@ -66,7 +66,7 @@ const PAGE_DATA = {
             a shocking discovery about their supposedly helpless victim."
         },
         {
-            imageUrl: "", 
+            imageUrl: "./images/mary.jpg", 
             title: "Proud Mary",
             price: --,
             stock: --,
