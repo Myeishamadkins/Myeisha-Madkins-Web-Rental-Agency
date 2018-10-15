@@ -49,21 +49,54 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-return" role="tabpanel" aria-labelledby="v-pills-return-tab">return</div>
+                            <div class="tab-pane fade" id="v-pills-return" role="tabpanel" aria-labelledby="v-pills-return-tab">
+                                <div class="container">
+                                    <div class="col-sm-10 col-lg-5 m-auto">
+                                        <h2 class="text-center">Let's Rent Your Movie</h2>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="name">Name</label>
+                                                        <input type="email" class="form-control" id="firstName" aria-describedby="emailHelp" placeholder="First" required>
+                                                        <input type="email" class="form-control" id="lastName" aria-describedby="emailHelp" placeholder="Last" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Email</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="d-flex justify-content-between" for="exampleInputPhoneNumber"><span>PhoneNumber</span></label>
+                                                        <input type="PhoneNumber" class="form-control" id="exampleInputPhoneNumber" placeholder="" required>
+                                                    </div>
+                                                    <label class="d-flex justify-content-between" for="exampleInputPayment"><span>Payment</span></label>
+                                                    <button type="submit" class="btn btn-primary">Cash</button>
+                                                    <button type="submit" class="btn btn-primary">Check</button>
+                                                    <button type="submit" class="btn btn-primary">Card</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <script id="template" type="text/x-handlebars-template">
+            <script id="template" type="text/x-handlebars-template">
             <div class="d-flex">
                 <img class="movieImage" src="{{imageUrl}}" alt="" style="max-width: 229px; max-height: 346px; width: 176.493px; height: 266.667px">
                 <div class="">
-                    <h3 class="movieTitle">{{title}}</h3>
-                    <h5 class="moviePrice">Price: ${{price}}</h5>
-                    <h6 class="movieStock">In-stock: {{stock}}</h6>
-                    <p class="movieInfo">{{description}}</p>
+                    <div class="d-flex justify-content-between"">
+                        <h3 class="movieTitle">{{title}}</h3>
+                        <button id="button"type="submit" class="btn btn-outline-primary" href="#return">Rent Movie</button>
+                    </div>
+                    <div>
+                        <h5 class="moviePrice">Price: ${{price}}</h5>
+                        <h6 class="movieStock">In-stock: {{stock}}</h6>
+                        <p class="movieInfo">{{description}}</p>
+                    </div>
                 </div>
             </div>
             <hr>
