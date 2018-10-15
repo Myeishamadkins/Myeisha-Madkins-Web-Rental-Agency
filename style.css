@@ -10,7 +10,7 @@ body {
 }
 
 .movieTitle {
-    margin-top: 5%;
+    margin-top: 0%;
 }
 .movieImage img:nth-child(even) {
     float: left;

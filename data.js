@@ -3,8 +3,8 @@ const PAGE_DATA = {
         {
             imageUrl: "./images/getout.png",
             title: "Get Out",
-            price: 0,
-            stock: 0,
+            price: 7.5,
+            stock: 10,
             description:
                 "Now that Chris (Daniel Kaluuya) and his girlfriend, Rose\
             (Allison Williams), have reached the meet-the-parents milestone of dating,\
@@ -17,8 +17,8 @@ const PAGE_DATA = {
         {
             imageUrl: "./images/Beauty_Beast.jpg",
             title: "Beauty and the Beast",
-            price: 0,
-            stock: 0,
+            price: 13.99,
+            stock: 10,
             description:
                 "An arrogant prince is cursed to live as a terrifying beast\
             until he finds true love. Strangely, his chance comes when he captures an\
@@ -31,8 +31,8 @@ const PAGE_DATA = {
         {
             imageUrl: "./images/Black_Panther.jpg",
             title: "Black Panther",
-            price: 0,
-            stock: 0,
+            price: 14.99,
+            stock: 10,
             description:
                 "After the death of his father, T'Challa returns home to\
             the African nation of Wakanda to take his rightful place as king. When a\
@@ -45,8 +45,8 @@ const PAGE_DATA = {
         {
             imageUrl: "./images/dark.jpg",
             title: "The Dark Crystal",
-            price: 0,
-            stock: 0,
+            price: 9.96,
+            stock: 10,
             description:
                 "Jen (Stephen Garlick), raised by the noble race called the\
             Mystics, has been told that he is the last survivor of his own race, the\
@@ -59,8 +59,8 @@ const PAGE_DATA = {
         {
             imageUrl: "./images/dontbreath.jpg",
             title: "Don't Breathe",
-            price: 0,
-            stock: 0,
+            price: 9.96,
+            stock: 10,
             description:
                 "Rocky (Jane Levy), Alex and Money are three Detroit thieves\
             who get their kicks by breaking into the houses of wealthy people. Money\
@@ -73,8 +73,8 @@ const PAGE_DATA = {
         {
             imageUrl: "./images/mary.jpg",
             title: "Proud Mary",
-            price: 0,
-            stock: 0,
+            price: 14.37,
+            stock: 10,
             description:
                 "Taraji P. Henson is Mary, a hit woman working for an organized\
             crime family in Boston, whose life is completely turned around when she meets\
