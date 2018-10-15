@@ -18,3 +18,9 @@ body {
 .movieImage img:nth-child(odd) {
     float: right;
 }
+img {
+    max-width: 229px;
+    max-height: 346px;
+    width: 176.493px;
+    height: 266.667px;
+}
