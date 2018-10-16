@@ -24,7 +24,7 @@
 
 <body>
     <div class="container">
-        <div class="card m-5">
+        <div class="card m-3">
             <div class="card-header">
                 <div class="row">
                     <div class="col-3">
@@ -40,64 +40,67 @@
                     <div class="col-9">
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                <h1 class="text-center mt-2">Pick of the Day:</h1>
-                                <div class="d-flex p-5">
-                                    <img class="movieImage" src="./images/getout.png">
+                                <div class="d-flex">
+                                    <img class="movieImage" src="./images/getout.png" alt="" style="max-width: 229px; max-height: 346px; width: 176.493px; height: 266.667px">
                                     <div class="">
-                                        <div class="d-flex justify-content-between" ">
-                                            <h3 class="movieTitle ">Get Out</h3>
-                                            <a href="#top "><button id="button "type="submit " class="btn btn-outline-primary ">Rent Movie</button></a>
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="movieTitle">
+                                                Get Out
+                                            </h3>
+                                            <button id="button" type="submit" class="btn btn-outline-primary">
+                                                Rent Movie
+                                            </button>
                                         </div>
                                         <div>
-                                            <h5 class="moviePrice ">Price: $7.50</h5>
-                                            <h6 class="movieStock ">In-stock: 10</h6>
-                                            <p class="movieInfo ">Now that Chris (Daniel Kaluuya) and his girlfriend, Rose\
-                                                    (Allison Williams), have reached the meet-the-parents milestone of dating,\
-                                                    she invites him for a weekend getaway upstate with Missy and Dean. At first,\
-                                                    Chris reads the family's overly accommodating behavior as nervous attempts\
-                                                    to deal with their daughter's interracial relationship, but as the weekend\
-                                                    progresses, a series of increasingly disturbing discoveries lead him to a\
-                                                    truth that he never could have imagined.</p>
+                                            <h5 class="moviePrice">
+                                                Price: $7.50
+                                            </h5>
+                                            <h6 class="movieStock">
+                                                In-stock: 10
+                                            </h6>
+                                            <p class="movieInfo">
+                                                Now that Chris (Daniel Kaluuya) and his girlfriend, Rose (Allison Williams), have reached the meet-the-parents milestone
+                                                of dating, she invites him for a weekend getaway upstate with Missy and Dean.
+                                                At first, Chris reads the family's overly accommodating behavior as nervous
+                                                attempts to deal with their daughter's interracial relationship, but as the
+                                                weekend progresses, a series of increasingly disturbing discoveries lead
+                                                him to a truth that he never could have imagined.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade " id="v-pills-rent " role="tabpanel " aria-labelledby="v-pills-rent-tab ">
-                                <div class="card ">
-                                    <div class="card-body " id="placeTemplate ">
+                            <div class="tab-pane fade" id="v-pills-rent" role="tabpanel" aria-labelledby="v-pills-rent-tab">
+                                <div class="card">
+                                    <div class="card-body" id="placeTemplate">
 
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade " id="v-pills-return " role="tabpanel " aria-labelledby="v-pills-return-tab
-                                            " name="top ">
-                                <div class="container ">
-                                    <div class="col-sm-10 col-lg-5 m-auto ">
-                                        <h2 class="text-center ">Let's Rent Your Movie</h2>
-                                        <div class="card ">
-                                            <div class="card-body ">
+                            <div class="tab-pane fade" id="v-pills-return" role="tabpanel" aria-labelledby="v-pills-return-tab">
+                                <div class="container">
+                                    <div class="col-sm-10 col-lg-5 m-auto">
+                                        <h2 class="text-center">Let's Rent Your Movie</h2>
+                                        <div class="card">
+                                            <div class="card-body">
                                                 <form>
-                                                    <div class="form-group ">
-                                                        <label for="name ">Name</label>
-                                                        <input type="name " class="form-control " id="firstName
-                                            " aria-describedby="nameHelp " placeholder="First " required>
-                                                        <input type="name " class="form-control " id="lastName
-                                            " aria-describedby="nameHelp " placeholder="Last " required>
+                                                    <div class="form-group">
+                                                        <label>Name</label>
+                                                        <input class="form-control" id="firstName" placeholder="First" required>
+                                                        <input class="form-control" id="lastName" placeholder="Last" required>
                                                     </div>
-                                                    <div class="form-group ">
-                                                        <label for="exampleInputEmail1 ">Email</label>
-                                                        <input type="email " class="form-control " id="exampleInputEmail
-                                            " aria-describedby="emailHelp " placeholder=" " required>
+                                                    <div class="form-group">
+                                                        <label>Email</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="" required>
                                                     </div>
-                                                    <div class="form-group ">
-                                                        <label class="d-flex justify-content-between " for="exampleInputPhoneNumber "><span>PhoneNumber</span></label>
-                                                        <input type="PhoneNumber " class="form-control " id="exampleInputPhoneNumber
-                                            " placeholder=" " required>
+                                                    <div class="form-group">
+                                                        <label class="d-flex justify-content-between"><span>Phone Number</span></label>
+                                                        <input type="phoneNumber" class="form-control" id="exampleInputNumber" placeholder="" required>
                                                     </div>
-                                                    <label class="d-flex justify-content-between " for="exampleInputPayment "><span>Payment</span></label>
-                                                    <button type="submit " class="btn btn-primary ">Cash</button>
-                                                    <button type="submit " class="btn btn-primary ">Check</button>
-                                                    <button type="submit " class="btn btn-primary ">Card</button>
+                                                    <label class="d-flex justify-content-between"><span>Payment</span></label>
+                                                    <button type="submit" class="btn btn-primary">Cash</button>
+                                                    <button type="submit" class="btn btn-primary">Check</button>
+                                                    <button type="submit" class="btn btn-primary">Card</button>
                                                 </form>
                                             </div>
                                         </div>
@@ -109,26 +112,35 @@
                 </div>
             </div>
 
-            <script id="template " type="text/x-handlebars-template ">
-            <div class="d-flex ">
-                <img class="movieImage " src="{{imageUrl}} ">
-                <div class=" ">
-                    <div class="d-flex justify-content-between "">
-                                            <h3 class="movieTitle">{{title}}</h3>
-                                            <a href="#top"><button id="button" type="submit" class="btn btn-outline-primary">Rent
-                                                    Movie
-                                                </button></a>
-                                        </div>
-                                        <div>
-                                            <h5 class="moviePrice">Price: ${{price}}</h5>
-                                            <h6 class="movieStock">In-stock: {{stock}}</h6>
-                                            <p class="movieInfo">{{description}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr>
-                                </script>
-
+            <script id="template" type="text/x-handlebars-template">
+                <div class="d-flex">
+                        <img class="movieImage" src="{{imageUrl}}" alt="" style="max-width: 229px; max-height: 346px; width: 176.493px; height: 266.667px">
+                        <div class="">
+                            <div class="d-flex justify-content-between">
+                                <h3 class="movieTitle">
+                                    {{title}}
+                                </h3>
+                                <button id="button" type="submit" class="btn btn-outline-primary">
+                                    Rent Movie
+                                </button>
+                            </div>
+                            <div>
+                                <h5 class="moviePrice">
+                                    {{price}}
+                                </h5>
+                                <h6 class="movieStock">
+                                    {{stock}}
+                                </h6>
+                                <p class="movieInfo">
+                                    {{description}}
+                                </p>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+            </script>
+        </div>
+    </div>
 </body>
 
 </html>
