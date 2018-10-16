@@ -18,8 +18,18 @@ function movieTemplate() {
 }
 movieTemplate();
 
-document.querySelector("#link-to-rent").addEventListener("click", function() {
-    $("#v-pills-payment-tab").tab("show");
+var link = document.querySelectorAll("#link-to-rent");
+
+for (var i = 0; i < link.length; i++) {
+    link[i].addEventListener("click", function() {
+        $("#v-pills-payment-tab").tab("show");
+    });
+}
+
+$('input[type="checkbox"]').on("change", function() {
+    $('input[type="checkbox"]')
+        .not(this)
+        .prop("checked", false);
 });
 
 // document.querySelector("#adding-to-cart").addEventListener("click", function() {
