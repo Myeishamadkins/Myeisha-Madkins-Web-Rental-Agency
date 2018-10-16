@@ -24,3 +24,9 @@ img {
     width: 176.493px;
     height: 266.667px;
 }
+/* .alternateImage:nth-of-type(odd) img {
+    float: left;
+}
+
+.alternateImage:nth-of-type(even) img {
+} */
