@@ -2,6 +2,14 @@
 body {
     background-image: url("https://www.muralswallpaper.com/app/uploads/black-marble-textures-plain.jpg");
 }
+.color-card {
+    border: 10px solid;
+    border-bottom-color: darkblue;
+    border-top-color: blue;
+    border-right-color: blueviolet;
+    border-left-color: aqua;
+}
+
 .movieTitle,
 .movieInfo,
 .moviePrice,
@@ -9,24 +17,9 @@ body {
     padding: 0 5%;
 }
 
-.movieTitle {
-    margin-top: 0%;
-}
-.movieImage img:nth-child(even) {
-    float: left;
-}
-.movieImage img:nth-child(odd) {
-    float: right;
-}
 img {
     max-width: 229px;
     max-height: 346px;
     width: 176.493px;
     height: 266.667px;
 }
-/* .alternateImage:nth-of-type(odd) img {
-    float: left;
-}
-
-.alternateImage:nth-of-type(even) img {
-} */

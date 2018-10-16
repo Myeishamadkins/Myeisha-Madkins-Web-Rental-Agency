@@ -23,94 +23,125 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="card m-3">
-            <div class="card-header">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home"
-                                aria-selected="true">Home</a>
-                            <a class="nav-link" id="v-pills-rent-tab" data-toggle="pill" href="#v-pills-rent" role="tab" aria-controls="v-pills-rent"
-                                aria-selected="false">Rent</a>
-                            <a class="nav-link" id="v-pills-payment-tab" data-toggle="pill" href="#v-pills-payment" role="tab" aria-controls="v-pills-payment"
-                                aria-selected="false">Payment</a>
+    <div class="here">
+        <div class="container">
+            <div class="color-card card mt-5">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                                    aria-selected="true">Home</a>
+                                <a class="nav-link" id="v-pills-rent-tab" data-toggle="pill" href="#v-pills-rent" role="tab" aria-controls="v-pills-rent"
+                                    aria-selected="false">Rent</a>
+                                <a class="nav-link" id="v-pills-payment-tab" data-toggle="pill" href="#v-pills-payment" role="tab" aria-controls="v-pills-payment"
+                                    aria-selected="false">Payment</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-9">
-                        <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                <div class="d-flex">
-                                    <img class="movieImage" src="./images/getout.png" alt="" style="max-width: 229px; max-height: 346px; width: 176.493px; height: 266.667px">
-                                    <div class="">
-                                        <div class="d-flex justify-content-between">
-                                            <h3 class="movieTitle">
-                                                Get Out
-                                            </h3>
-                                            <button id="button" type="submit" class="btn btn-outline-primary">
-                                                Rent Movie
-                                            </button>
-                                        </div>
-                                        <div>
-                                            <h5 class="moviePrice">
-                                                Price: $7.50
-                                            </h5>
-                                            <h6 class="movieStock">
-                                                In-stock: 10
-                                            </h6>
-                                            <p class="movieInfo">
-                                                Now that Chris (Daniel Kaluuya) and his girlfriend, Rose (Allison Williams), have reached the meet-the-parents milestone
-                                                of dating, she invites him for a weekend getaway upstate with Missy and Dean.
-                                                At first, Chris reads the family's overly accommodating behavior as nervous
-                                                attempts to deal with their daughter's interracial relationship, but as the
-                                                weekend progresses, a series of increasingly disturbing discoveries lead
-                                                him to a truth that he never could have imagined.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-rent" role="tabpanel" aria-labelledby="v-pills-rent-tab">
-                                <div class="card">
-                                    <div class="card-body" id="placeTemplate">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-payment" role="tabpanel" aria-labelledby="v-pills-payment-tab">
-                                <div class="container">
-                                    <div class="col-sm-10  m-auto">
-                                        <h2 class="text-center">Let's Rent Your Movie</h2>
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <label>Name</label>
-                                                        <input class="form-control" id="firstName" placeholder="First" required>
-                                                        <br>
-                                                        <input class="form-control" id="lastName" placeholder="Last" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Email</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="d-flex justify-content-between"><span>Phone Number</span></label>
-                                                        <input type="tel" class="form-control" id="exampleInputNumber" required>
-                                                    </div>
-                                                    <label class="d-flex justify-content-between"><span>Payment</span></label>
-                                                    <div class="d-flex justify-content-between">
-                                                        <div>
-                                                            <input type="checkbox" name="payment1">Cash
-                                                            <input type="checkbox" name="payment2">Check
-                                                            <input type="checkbox" name="payment3">Card
-                                                        </div>
-                                                        <div>
-                                                            <button type="submit" class="btn btn-outline-primary">Done</button>
-                                                        </div>
-                                                    </div>
-                                                </form>
+                        <div class="col-9">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                    <div class="d-flex">
+                                        <img class="movieImage" src="./images/getout.png" alt="" style="max-width: 229px; max-height: 346px; width: 176.493px; height: 266.667px">
+                                        <div class="">
+                                            <div class="d-flex justify-content-between">
+                                                <h3 class="movieTitle">
+                                                    Get Out
+                                                </h3>
+                                                <button id="button" type="submit" class="btn btn-outline-primary">
+                                                    Rent Movie
+                                                </button>
                                             </div>
+                                            <div>
+                                                <h5 class="moviePrice">
+                                                    Price: $7.50
+                                                </h5>
+                                                <h6 class="movieStock">
+                                                    In-stock: 10
+                                                </h6>
+                                                <p class="movieInfo">
+                                                    Now that Chris (Daniel Kaluuya) and his girlfriend, Rose (Allison Williams), have reached the meet-the-parents milestone
+                                                    of dating, she invites him for a weekend getaway upstate with Missy and
+                                                    Dean. At first, Chris reads the family's overly accommodating behavior
+                                                    as nervous attempts to deal with their daughter's interracial relationship,
+                                                    but as the weekend progresses, a series of increasingly disturbing discoveries
+                                                    lead him to a truth that he never could have imagined.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-rent" role="tabpanel" aria-labelledby="v-pills-rent-tab">
+                                    <div class="card">
+                                        <div class="card-body" id="placeTemplate">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-payment" role="tabpanel" aria-labelledby="v-pills-payment-tab">
+                                    <div class="container">
+                                        <div class="col-sm-10  m-auto">
+                                            <div class="row justify-content-center">
+                                                <div class="">
+                                                    <div class="card">
+                                                        <header class="card-header">
+                                                            <h4 class="card-title mt-2 text-center">Let's Rent Your Movie</h4>
+                                                        </header>
+                                                        <article class="card-body">
+                                                            <form>
+                                                                <div class="form-row">
+                                                                    <div class="col form-group">
+                                                                        <label>First name </label>
+                                                                        <input type="text" class="form-control" placeholder="">
+                                                                    </div>
+                                                                    <div class="col form-group">
+                                                                        <label>Last name</label>
+                                                                        <input type="text" class="form-control" placeholder=" ">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label>Phone</label>
+                                                                        <input type="tel" class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label>Email address</label>
+                                                                    <input type="email" class="form-control" placeholder="">
+                                                                </div>
+                                                                <div class="form-row">
+                                                                    <div class="form-group col-md-6">
+                                                                        <label>City</label>
+                                                                        <input type="text" class="form-control">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label>Zip Code</label>
+                                                                        <input type="" class="form-control">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6 justify-content-center">
+                                                                        <label>Country</label>
+                                                                        <select id="" class="form-control">
+                                                                            <option selected=" ">United States</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group ">
+                                                                    <label>Street Address</label>
+                                                                    <input class="form-control " type=" ">
+                                                                </div>
+                                                                <div class="form-group ">
+                                                                    <button type="submit " class="btn btn-primary btn-block "> Done
+                                                                    </button>
+                                                                </div>
+                                                                <small class="text-muted ">By clicking done, you are confirming
+                                                                    your purchase.</small>
+                                                            </form>
+                                                        </article>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -118,35 +149,35 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <script class="rentables" id="template" type="text/x-handlebars-template">
-                <div class="alternateImage d-flex">
-                        <img class="movieImage" src="{{imageUrl}}">
-                        <div class="">
-                            <div class="d-flex justify-content-between">
-                                <h3 class="movieTitle">
-                                    {{title}}
-                                </h3>
-                                <button id="link-to-rent" type="submit" class="btn btn-outline-primary">
-                                    Rent Movie
-                                </button>
+                <script class="rentables " id="template " type="text/x-handlebars-template ">
+                    <div class="alternateImage d-flex ">
+                            <img class="movieImage " src="{{imageUrl}} ">
+                            <div class=" ">
+                                <div class="d-flex justify-content-between ">
+                                    <h3 class="movieTitle ">
+                                        {{title}}
+                                    </h3>
+                                    <button id="link-to-rent " type="submit " class="btn btn-outline-primary ">
+                                        Rent Movie
+                                    </button>
+                                </div>
+                                <div>
+                                    <h5 class="moviePrice ">
+                                        Price:$ {{price}}
+                                    </h5>
+                                    <h6 class="movieStock ">
+                                        In-stock: {{stock}}
+                                    </h6>
+                                    <p class="movieInfo ">
+                                            {{description}}
+                                    </p>
+                                </div>
+                                <br>
                             </div>
-                            <div>
-                                <h5 class="moviePrice">
-                                    {{price}}
-                                </h5>
-                                <h6 class="movieStock">
-                                    {{stock}}
-                                </h6>
-                                <p class="movieInfo">
-                                    {{description}}
-                                </p>
-                            </div>
-                            <br>
                         </div>
-                    </div>
-            </script>
+                </script>
+            </div>
         </div>
     </div>
 </body>
