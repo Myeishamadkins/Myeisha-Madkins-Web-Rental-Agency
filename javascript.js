@@ -25,27 +25,3 @@ document.querySelector("#link-to-rent").addEventListener("click", function() {
 // document.querySelector("#adding-to-cart").addEventListener("click", function() {
 //     $("#v-pills-cart-tab").tab("show");
 // });
-
-// function rentMovie() {
-//     var rent = document.querySelectorAll(".rentables");
-//     rent.forEach(function(button, index) {
-//         button.addEventListener("click", function() {
-//             if (rent[index].querySelector(".movieStock").innerText > 0) {
-//                 removeStock(index);
-//                 addToTotal(rent[index].querySelector(".moviePrice").innerText);
-//             }
-//         });
-//     });
-// }
-// rentMovie();
-
-// function removeStock(rentIndex) {
-//     var rent = document.querySelectorAll(".rentables");
-//     rent[rentIndex].querySelector(".movieStock").innerHTML =
-//         rent[rentIndex].querySelector(".movieStock").innerHTML - 1;
-// }
-
-// function addToTotal(number) {
-//     document.querySelector(".").innerText =
-//         Number(document.querySelector(".").innerText) + Number(num);
-// }
