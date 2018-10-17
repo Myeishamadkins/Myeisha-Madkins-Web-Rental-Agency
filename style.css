@@ -1,6 +1,9 @@
 /* styling */
 body {
-    background-image: url("https://www.muralswallpaper.com/app/uploads/black-marble-textures-plain.jpg");
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 .color-card {
     border: 10px solid;
@@ -24,16 +27,25 @@ img {
     height: 266.667px;
 }
 
+.rentalTitle {
+    background: none;
+    color: rgb(110, 168, 187);
+    padding-bottom: 6px;
+    margin-top: 5px;
+    font-family: "Mogra", cursive;
+    font-size: 50px;
+}
+
 legend {
     background-color: white;
     color: black;
     padding: 3px 6px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 .card {
     border: 8px solid;
-    border-bottom-color: darkblue;
-    border-top-color: blue;
-    border-right-color: blueviolet;
-    border-left-color: aqua;
+    border-top-color: rgb(110, 168, 187);
+    border-left-color: grey;
+    border-right-color: rgba(173, 216, 230, 0.554);
+    border-bottom-color: black;
 }
