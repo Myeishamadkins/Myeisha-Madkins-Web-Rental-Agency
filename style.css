@@ -23,3 +23,22 @@ img {
     width: 176.493px;
     height: 266.667px;
 }
+
+legend {
+    background-color: white;
+    color: black;
+    padding: 3px 6px;
+    margin-top: 5px;
+    /* border: 3px solid;
+    border-bottom-color: darkblue;
+    border-top-color: blue;
+    border-right-color: blueviolet;
+    border-left-color: aqua; */
+}
+.card {
+    border: 8px solid;
+    border-bottom-color: darkblue;
+    border-top-color: blue;
+    border-right-color: blueviolet;
+    border-left-color: aqua;
+}

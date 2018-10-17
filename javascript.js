@@ -32,6 +32,34 @@ $('input[type="checkbox"]').on("change", function() {
         .prop("checked", false);
 });
 
+function getRandom() {
+    var i = Math.floor(Math.random() * PAGE_DATA.moviePosters.length);
+    return i;
+}
+
+function randomMovie() {
+    var source = document.getElementById("randomTemplate").innerHTML;
+    var template = Handlebars.compile(source);
+    var content = "";
+    i = getRandom();
+    content += template({
+        imageUrl: PAGE_DATA.moviePosters[i].imageUrl,
+        title: PAGE_DATA.moviePosters[i].title,
+        price: PAGE_DATA.moviePosters[i].price,
+        description: PAGE_DATA.moviePosters[i].description
+    });
+
+    document
+        .querySelector("#randomMovie")
+        .insertAdjacentHTML("beforeend", content);
+
+    document
+        .querySelector("#link-to-rent")
+        .addEventListener("click", function() {
+            $("#v-pills-rent-tab").tab("show");
+        });
+}
+randomMovie();
 // document.querySelector("#adding-to-cart").addEventListener("click", function() {
 //     $("#v-pills-cart-tab").tab("show");
 // });
