@@ -56,7 +56,7 @@ function randomMovie() {
     document
         .querySelector("#link-to-rent")
         .addEventListener("click", function() {
-            $("#v-pills-rent-tab").tab("show");
+            $("#v-pills-payment-tab").tab("show");
         });
 }
 randomMovie();
