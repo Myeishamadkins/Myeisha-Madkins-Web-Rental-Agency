@@ -43,7 +43,7 @@
                         <div class="col-9">
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                    <div id="randomMovie" class="d-flex p-3">
+                                    <div id="randomMovie" class=" ran-movie-flex p-3">
 
                                     </div>
                                 </div>
@@ -118,8 +118,9 @@
                                                                     <button type="submit" class="btn btn-primary btn-block"> Done
                                                                     </button>
                                                                 </div>
-                                                                <div class="d-flex justify-content-center"><small class="text-muted">By
-                                                                        clicking done, you are confirming your purchase.</small></div>
+                                                                <div class="click-message justify-content-center"><small
+                                                                        class="text-muted">By clicking done, you are confirming
+                                                                        your purchase.</small></div>
                                                             </form>
                                                         </article>
                                                     </div>
@@ -135,10 +136,10 @@
 
                 <script class="rentables" id="template" type="text/x-handlebars-template">
 
-                    <div class="alternateImage d-flex">
+                    <div class="alternateImage">
                             <img class="movieImage" src="{{imageUrl}}">
                             <div class="">
-                                <div class="d-flex justify-content-between">
+                                <div class="title-rent-button justify-content-between">
                                     <h3 class="movieTitle">
                                         {{title}}
                                     </h3>
@@ -165,7 +166,7 @@
                 <script class="randomRentable" id="randomTemplate" type="text/x-handlebars-template">
                     <img class="movieImage" src="{{imageUrl}}">
                         <div class="">
-                            <div class="d-flex justify-content-between">
+                            <div class="title-rent-button justify-content-between">
                                 <h3 class="movieTitle">
                                     {{title}}
                                 </h3>

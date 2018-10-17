@@ -49,3 +49,12 @@ legend {
     border-right-color: rgba(173, 216, 230, 0.554);
     border-bottom-color: black;
 }
+
+@media screen and (min-width: 600px) {
+    .click-message,
+    .alternateImage,
+    .title-rent-button,
+    .ran-movie-flex {
+        display: flex;
+    }
+}
