@@ -60,6 +60,21 @@ function randomMovie() {
         });
 }
 randomMovie();
-// document.querySelector("#adding-to-cart").addEventListener("click", function() {
-//     $("#v-pills-cart-tab").tab("show");
-// });
+
+function showThanks() {
+    var payForm = document.forms["payment"];
+    var firstInput = payForm["firstName"];
+    var firstName = firstInput.value;
+    var formContainer = document.querySelector(".form-container");
+    formContainer.innerHTML = `<h1 class="put-margin text-change text-center ">Thanks, ${firstName} for your purchase!</h1> <button type="submit" class="btn btn-primary btn-block" id="link-to-home" onclick='refreshButton()'> <i class="fas fa-thumbs-up"></i>
+    </button>`;
+
+    document
+        .querySelector("#link-to-home")
+        .addEventListener("click", function() {
+            $("#v-pills-home-tab").tab("show");
+        });
+}
+function refreshButton() {
+    location.reload();
+}
