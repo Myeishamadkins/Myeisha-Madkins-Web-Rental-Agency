@@ -3,7 +3,7 @@ const PAGE_DATA = {
         {
             imageUrl: "./images/getout.png",
             title: "Get Out",
-            price: 7.5,
+            price: 9.96,
             stock: 10,
             description:
                 "Now that Chris (Daniel Kaluuya) and his girlfriend, Rose\
@@ -32,7 +32,7 @@ const PAGE_DATA = {
             imageUrl: "./images/Black_Panther.jpg",
             title: "Black Panther",
             price: 14.99,
-            stock: 10,
+            stock: 1,
             description:
                 "After the death of his father, T'Challa returns home to\
             the African nation of Wakanda to take his rightful place as king. When a\
@@ -46,7 +46,7 @@ const PAGE_DATA = {
             imageUrl: "./images/dark.jpg",
             title: "The Dark Crystal",
             price: 9.96,
-            stock: 10,
+            stock: 1,
             description:
                 "Jen (Stephen Garlick), raised by the noble race called the\
             Mystics, has been told that he is the last survivor of his own race, the\
@@ -60,7 +60,7 @@ const PAGE_DATA = {
             imageUrl: "./images/dontbreath.jpg",
             title: "Don't Breathe",
             price: 9.96,
-            stock: 10,
+            stock: 1,
             description:
                 "Rocky (Jane Levy), Alex and Money are three Detroit thieves\
             who get their kicks by breaking into the houses of wealthy people. Money\
@@ -74,7 +74,7 @@ const PAGE_DATA = {
             imageUrl: "./images/mary.jpg",
             title: "Proud Mary",
             price: 14.37,
-            stock: 10,
+            stock: 1,
             description:
                 "Taraji P. Henson is Mary, a hit woman working for an organized\
             crime family in Boston, whose life is completely turned around when she meets\

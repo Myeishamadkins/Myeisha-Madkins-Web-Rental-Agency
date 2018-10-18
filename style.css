@@ -17,7 +17,7 @@ body {
 .movieInfo,
 .moviePrice,
 .movieStock {
-    padding: 0 5%;
+    padding: 0 3%;
 }
 
 img {
@@ -48,6 +48,12 @@ legend {
     border-left-color: grey;
     border-right-color: rgba(173, 216, 230, 0.554);
     border-bottom-color: black;
+}
+
+.featureTitle {
+    color: rgb(110, 168, 187);
+    padding-bottom: 6px;
+    font-family: "Mogra", cursive;
 }
 
 @media screen and (min-width: 600px) {

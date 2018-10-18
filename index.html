@@ -21,6 +21,8 @@
     <script src="data.js" defer></script>
     <script src="javascript.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -65,24 +67,29 @@
                                                             <form>
                                                                 <div class="form-row">
                                                                     <div class="col form-group">
-                                                                        <label for="validationServer01">First name</label>
+                                                                        <label for="validationServer01"><i class="fas fa-signature"></i>
+                                                                            First name</label>
                                                                         <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" required>
                                                                     </div>
                                                                     <div class="col form-group">
-                                                                        <label for="validationServer02">Last name</label>
+                                                                        <label for="validationServer02"><i class="fas fa-signature"></i>
+                                                                            Last name</label>
                                                                         <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" required>
                                                                     </div>
                                                                     <div class="form-group col-md-6">
-                                                                        <label for="validationServer03">Phone</label>
+                                                                        <label for="validationServer03"><i class="fas fa-mobile-alt"></i>
+                                                                            Phone</label>
                                                                         <input type="tel" class="form-control" id="validationServer03" placeholder="111-222-3333" required>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <label for="validationServer04">Email address</label>
+                                                                    <label for="validationServer04"><i class="fas fa-at"></i>
+                                                                        Email address</label>
                                                                     <input type="email" class="form-control" placeholder="example@email.com" required>
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <label for="validationServer08">Street Address</label>
+                                                                    <label for="validationServer08"><i class="fas fa-map-marker-alt"></i>
+                                                                        Street Address</label>
                                                                     <input type="text" class="form-control" id="validationServer08" placeholder="123 example road" required>
                                                                 </div>
                                                                 <div class="form-row">
@@ -99,7 +106,7 @@
                                                                         <input type="text" class="form-control is-invalid" id="validationServer07" placeholder="Zip" required>
                                                                     </div>
                                                                     <div class="form-group col-md-6 justify-content-center">
-                                                                        <label>Country</label>
+                                                                        <label> Country</label>
                                                                         <select class="form-control">
                                                                             <option>United States</option>
                                                                         </select>
@@ -107,7 +114,8 @@
                                                                 </div>
                                                                 <div>
                                                                     <select class="custom-select">
-                                                                        <option selected>Payment</option>
+                                                                        <option selected>
+                                                                            Payment</option>
                                                                         <option value="1">Cash</option>
                                                                         <option value="2">Check</option>
                                                                         <option value="3">Credit</option>
@@ -166,6 +174,7 @@
                 <script class="randomRentable" id="randomTemplate" type="text/x-handlebars-template">
                     <img class="movieImage" src="{{imageUrl}}">
                         <div class="">
+                            <h3 class="featureTitle text-center">Todays Featured Movie</h3>
                             <div class="title-rent-button justify-content-between">
                                 <h3 class="movieTitle">
                                     {{title}}
