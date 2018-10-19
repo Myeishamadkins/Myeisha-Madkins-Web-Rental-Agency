@@ -4,7 +4,7 @@ const PAGE_DATA = {
             imageUrl: "./images/getout.png",
             title: "Get Out",
             price: 9.96,
-            stock: 10,
+            stock: 1,
             description:
                 "Now that Chris (Daniel Kaluuya) and his girlfriend, Rose\
             (Allison Williams), have reached the meet-the-parents milestone of dating,\
@@ -18,7 +18,7 @@ const PAGE_DATA = {
             imageUrl: "./images/Beauty_Beast.jpg",
             title: "Beauty and the Beast",
             price: 13.99,
-            stock: 10,
+            stock: 1,
             description:
                 "An arrogant prince is cursed to live as a terrifying beast\
             until he finds true love. Strangely, his chance comes when he captures an\
