@@ -3,13 +3,18 @@ function movieTemplate() {
     var source = document.getElementById("template").innerHTML;
     var template = Handlebars.compile(source);
     var content = "";
-    for (var i = 0; i < PAGE_DATA.moviePosters.length; i++) {
+    for (var i = 0; i < PAGE_DATA.moviePosters.length; i += 2) {
         content += template({
             imageUrl: PAGE_DATA.moviePosters[i].imageUrl,
             title: PAGE_DATA.moviePosters[i].title,
             price: PAGE_DATA.moviePosters[i].price,
             stock: PAGE_DATA.moviePosters[i].stock,
-            description: PAGE_DATA.moviePosters[i].description
+            description: PAGE_DATA.moviePosters[i].description,
+            imageUrlA: PAGE_DATA.moviePosters[i + 1].imageUrl,
+            titleA: PAGE_DATA.moviePosters[i + 1].title,
+            priceA: PAGE_DATA.moviePosters[i + 1].price,
+            stockA: PAGE_DATA.moviePosters[i + 1].stock,
+            descriptionA: PAGE_DATA.moviePosters[i + 1].description
         });
     }
     document
@@ -25,12 +30,6 @@ for (var i = 0; i < link.length; i++) {
         $("#v-pills-payment-tab").tab("show");
     });
 }
-
-$('input[type="checkbox"]').on("change", function() {
-    $('input[type="checkbox"]')
-        .not(this)
-        .prop("checked", false);
-});
 
 function getRandom() {
     var i = Math.floor(Math.random() * PAGE_DATA.moviePosters.length);
