@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Myeisha Madkins Web Rental Agency</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -20,15 +23,12 @@
         crossorigin="anonymous"></script>
     <script src="data.js" defer></script>
     <script src="javascript.js" defer></script>
-    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
 </head>
 
 <body>
     <div class="here">
         <div class="container">
-            <legend class="rentalTitle text-center">Welcome to Myeisha's Movie Rental</legend>
+            <h1 class="rentalTitle text-center">Welcome to Myeisha's Movie Rental</h1>
             <div class="color-card card mt-5">
                 <div class="card-header">
                     <div class="row">
@@ -113,13 +113,17 @@
                                                                     </div>
                                                                 </div>
                                                                 <div>
-                                                                    <select class="custom-select">
-                                                                        <option selected>
-                                                                            Payment</option>
-                                                                        <option value="1">Cash</option>
-                                                                        <option value="2">Check</option>
-                                                                        <option value="3">Credit</option>
-                                                                    </select>
+                                                                    <div>
+                                                                        <div>Payment</div>
+                                                                        <div>
+                                                                            <input type="radio" id="cash" name="drone" value="cash" checked />
+                                                                            <label for="cash">Cash</label>
+                                                                            <input type="radio" id="credit" name="drone" value="credit" />
+                                                                            <label for="credit">Credit</label>
+                                                                            <input type="radio" id="check" name="drone" value="check" />
+                                                                            <label for="check">Check</label>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                                 <br>
                                                                 <div class="form-group">
@@ -151,7 +155,7 @@
                                     <h3 class="movieTitle">
                                         {{title}}
                                     </h3>
-                                    <button id="link-to-rent" type="submit" class="btn btn-outline-primary">
+                                    <button id="link-to-rent" type="submit" class="btn btn-outline-primary buttonColor">
                                         Rent Movie
                                     </button>
                                 </div>
@@ -169,6 +173,31 @@
                                 <br>
                             </div>
                         </div>
+                        <div class="alternateImage">
+                                <div class="">
+                                    <div class="title-rent-button justify-content-between pr-3">
+                                        <h3 class="movieTitle">
+                                            {{titleA}}
+                                        </h3>
+                                        <button id="link-to-rent" type="submit" class="btn btn-outline-primary buttonColor">
+                                            Rent Movie
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <h5 class="moviePrice">
+                                            Price: ${{priceA}}
+                                        </h5>
+                                        <h6 class="movieStock">
+                                            In-stock: {{stockA}}
+                                        </h6>
+                                        <p class="movieInfo">
+                                                {{descriptionA}}
+                                        </p>
+                                    </div>
+                                    <br>
+                                </div>
+                                <img class="movieImage" src="{{imageUrlA}}">
+                            </div>
                 </script>
 
                 <script class="randomRentable" id="randomTemplate" type="text/x-handlebars-template">
@@ -179,7 +208,7 @@
                                 <h3 class="movieTitle">
                                     {{title}}
                                 </h3>
-                                <button id="link-to-rent" type="submit" class="btn btn-outline-primary">
+                                <button id="link-to-rent" type="submit" class="btn btn-outline-primary buttonColor">
                                     Rent Movie
                                 </button>
                             </div>
