@@ -56,11 +56,18 @@ legend {
     font-family: "Mogra", cursive;
 }
 
+.buttonColor,
+.nav-link {
+    background-color: rgb(110, 168, 187);
+    color: white;
+}
+
 @media screen and (min-width: 600px) {
     .click-message,
     .alternateImage,
     .title-rent-button,
-    .ran-movie-flex {
+    .ran-movie-flex,
+    .radio-flex {
         display: flex;
     }
 }
